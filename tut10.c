@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 #include <stdio.h>
@@ -37,3 +38,30 @@ int main()
 // maths - 15
 
 // print the type of gift you are giving to them
+=======
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+	/* code */
+	int age;
+	// char name;
+	// printf("Please enter your name");
+	// scanf("%c", &name);
+	printf("Please enter your age:\n");
+	scanf("%d", &age);
+	printf("So your age is %d dear user\n", age);
+	if (age >= 1 && age < 60)
+	{
+		printf("You are allowed to drive a car");
+	}
+	else if (age >= 60)
+	{
+		printf("You are old dear man. Go get a driver");
+	}
+	else
+	{
+		printf("You are not allowed to drive a car");
+	}
+	return 0;
+}
+>>>>>>> 74682ba (Done till break statements in C, continue is still left)

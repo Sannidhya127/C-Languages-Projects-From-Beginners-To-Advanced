@@ -12,4 +12,7 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 74682ba (Done till break statements in C, continue is still left)
