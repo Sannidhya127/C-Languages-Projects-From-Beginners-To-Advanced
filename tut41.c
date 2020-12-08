@@ -6,11 +6,18 @@ int func1(int a)
 	data = data++;
 	return data;
 }
+
+int func2(int num)
+{
+	static int nums = 56;
+	nums = nums++;
+	return nums;
+}
 int main(int argc, char const *argv[])
 {
 	int a, func;
 	a = 5;
-	func = func1(a);
+	func = func2(a);
 	printf("First Call: %d\n", func);
 	printf("Second Call: %d\n", func);
 	printf("Third Call: %d\n", func);
